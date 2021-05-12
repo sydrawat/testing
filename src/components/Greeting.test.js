@@ -3,7 +3,7 @@ import userEvent from '@testing-library/user-event';
 
 import Greeting from './Greeting';
 
-describe('Greeting Suite', () => {
+describe('Greeting Component Test Suite', () => {
   test('Renders "hello human" as a text', () => {
     render(<Greeting />); //arrange
     const helloElement = screen.getByText(/hello human/i);
